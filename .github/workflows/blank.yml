@@ -18,7 +18,7 @@ jobs:
     env:  
       platform: aws
       region: us-east-1
-      account: 123456789012 
+      account: 1234567890122
       username: ${{secrets.USERNAME}}
       password: ${{secrets.PASSWORD}}
 
