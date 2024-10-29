@@ -38,6 +38,8 @@ jobs:
           echo "Esto es el valor de platform: ${{ env.platform}} "
           echo "Esto es el valor de region: ${{env.region}}"
           echo "Esto es la cuenta : ${{env.account}}"  
+          echo "esto es el valor username: ${{env.username}}"
+          echo "esto es el valor password: ${{env.password}}"
       
       - name: "Mostrando variables por defecto"
         run: |
